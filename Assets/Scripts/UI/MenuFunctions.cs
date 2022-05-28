@@ -14,10 +14,10 @@ public class MenuFunctions : MonoBehaviour
         Application.Quit();
     }
 
-    public void Options()
+    public void Credits()
     {
         //SceneManager.LoadScene("OptionsScreen");
-        Debug.Log("Llamada a la pantalla de opciones");
+        Debug.Log("Llamada a la pantalla de créditos");
     }
 
     public void Menu()
