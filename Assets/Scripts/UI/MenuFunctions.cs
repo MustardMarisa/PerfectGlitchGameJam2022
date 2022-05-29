@@ -37,6 +37,7 @@ public class MenuFunctions : MonoBehaviour
 
     public void Quit()
     {
+        Debug.Log("Cerrar el juego");
         Application.Quit();
     }
 
@@ -44,10 +45,5 @@ public class MenuFunctions : MonoBehaviour
     {
         //SceneManager.LoadScene("OptionsScreen");
         Debug.Log("Llamada a la pantalla de créditos");
-    }
-
-    public void Menu()
-    {
-        SceneManager.LoadScene("MainMenu");
     }
 }
