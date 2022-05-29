@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 
-public class VideoTransition : MonoBehaviour
+public class CinematicSceneManager : MonoBehaviour
 {
-    public VideoPlayer videoIntro;
+    [SerializeField] private VideoPlayer videoIntro;
 
     private void Awake()
     {
@@ -22,7 +22,7 @@ public class VideoTransition : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
             MakeSceneTransition();
     }
 
@@ -31,11 +31,11 @@ public class VideoTransition : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "MainIntro")
             SceneManager.LoadScene("MainMenu");
 
-        else if (SceneManager.GetActiveScene().name == "MainMenu")
+        else if (SceneManager.GetActiveScene().name == "GameCredits")
             SceneManager.LoadScene("MainMenu");
 
         else if (SceneManager.GetActiveScene().name == "GameIntro")
             //SceneManager.LoadScene("MainGameScene");
-            Debug.Log("Escena principal");
+            Debug.Log("Cargar Escena principal");
     }
 }

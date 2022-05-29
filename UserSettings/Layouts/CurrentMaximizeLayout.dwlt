@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 5362
+  controlID: 8395
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 5363
+  controlID: 8396
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 5364
+  controlID: 8397
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0c45ffff0646ffff9447ffff184cffffcc4dffff964fffff7050fffffe57ffffe25bffffac87ffffb68cffffdc91ffff
+      m_ExpandedIDs: c41bffffa02bffffee2effff7e33ffffbc39ffff863affff0c45ffff0646ffff9447ffff184cffffcc4dffff964fffff7050fffffe57ffffe25bffffac87ffffb68cffffdc91ffffb4fc0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -577,9 +577,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 12.089848
+    m_Target: 12.633891
     speed: 2
-    m_Value: 12.089848
+    m_Value: 12.633891
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 105.39996}
+    scrollPos: {x: 0, y: 73.24957}
     m_SelectedIDs: ece40000
     m_LastClickedID: 58604
     m_ExpandedIDs: 00000000b0e40000bce40000d6e40000ece40000
@@ -856,24 +856,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 80fa0000
-    m_LastClickedInstanceID: 64128
+    m_SelectedInstanceIDs: 0ae50000
+    m_LastClickedInstanceID: 58634
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fc6e000078760000cec20000c6c20000aedc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: MainIntro
-      m_OriginalName: MainIntro
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 58634
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -975,7 +975,7 @@ MonoBehaviour:
     m_CachedPref: 214
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 64128
+  m_LastInspectedObjectInstanceID: 58634
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
