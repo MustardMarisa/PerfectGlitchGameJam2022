@@ -31,8 +31,7 @@ public class MenuFunctions : MonoBehaviour
 
     public void StartGame()
     {
-        //SceneManager.LoadScene("MainGame");
-        Debug.Log("Llamada a la pantalla del juego principal");
+        SceneManager.LoadScene("GameIntro");
     }
 
     public void Quit()
@@ -43,7 +42,6 @@ public class MenuFunctions : MonoBehaviour
 
     public void Credits()
     {
-        //SceneManager.LoadScene("OptionsScreen");
-        Debug.Log("Llamada a la pantalla de créditos");
+        SceneManager.LoadScene("GameCredits");
     }
 }
